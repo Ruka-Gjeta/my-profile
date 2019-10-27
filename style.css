@@ -1,0 +1,142 @@
+/* #132743 */
+/* #407088 */
+/* #FFB5B5 */
+
+/*#FCEFEF - Light pink, background colour*/
+/*#000000 - Black, main header colour*/
+/*#FF3465 - Bright pink, smaller header colour*/
+/*#1E1E1E - Grey, paragraph text*/
+
+
+body {
+	background-color: #FCEFEF;
+	font-family: 'source sans pro', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	text-align: center;
+}
+h1, h2 {
+	font-family: 'playfair display', serif;
+	font-weight: 700;
+}
+h1 {font-size: 50px;
+	color: #000000;
+
+}
+ h2 {color: #FF3465;
+ 	font-size: 24px;
+ }
+p {
+	font size: 17px;
+	color: #1E1E1E;
+	line-height: 1.6;
+	text-justify: center;
+}
+a { 
+color: #132743;
+font-size: 24px;
+font-family: 'playfair display', serif;
+text-decoration: none;
+transition: 0.5s 
+font-weight: 700;
+}
+a:hover {
+	color: #000000;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	display: inline;
+}
+
+
+/*Custom design with class (99% of your design) */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read*/
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	/*For a screen <720px, this CSS will be read*/
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 540px) {
+	/*For a screen <540px,this CSS will be read*/
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #FF3465 ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: #000000;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: #FF3465;
+}
+
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #000000;
+}
+
+/*SPecifc adjustments*/
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+.card-last {
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
